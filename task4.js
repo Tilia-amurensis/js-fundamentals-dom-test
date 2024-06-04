@@ -3,12 +3,12 @@
 // Потрібно отримати дані з усіх полів та повернути та подати у вигляді наступних змінних
 // name, phoneNumber, dataOfBirth, emailAddress
 
-// Ваш код ..
+// Твій код має бути тут
 
-
+//Не видаляй наступні рядки, вони потрібні для запуску тестів
 module.exports = {
-    name,
-    phoneNumber,
-    dataOfBirth,
-    emailAddress
+  name,
+  phoneNumber,
+  dataOfBirth,
+  emailAddress,
 };

@@ -7,10 +7,8 @@ const html = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf-8');
 const { window } = new JSDOM(html);
 global.document = window.document;
 
-const domManipulation = require('../task1.js');
-
 test('Повертає значення innerHTML елементів', () => {
-  const { firstEl, secondtEl, thirdtEl, fourthEl, lastEl } = domManipulation;
+  const { firstEl, secondtEl, thirdtEl, fourthEl, lastEl } = require('../task1.js');
 
   expect(firstEl).toBe('1');
   expect(secondtEl).toBe('2');
