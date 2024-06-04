@@ -9,6 +9,6 @@
 module.exports = {
   name,
   phoneNumber,
-  dataOfBirth,
+  dateOfBirth,
   emailAddress,
 };
