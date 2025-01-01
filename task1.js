@@ -8,7 +8,12 @@
 
 
 //Твій код має бути тут
-
+const list = document.body.firstElementChild;
+const firstEl = list.children[0].textContent;
+const lastEl = list.children[4].textContent;
+const secondtEl = list.children[1].textContent;
+const fourthEl = list.children[3].textContent;
+const thirdtEl = list.children[2].textContent;
 //Не видаляй наступні рядки, вони потрібні для запуску тестів
 module.exports = {
   firstEl,
