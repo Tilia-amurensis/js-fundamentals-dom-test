@@ -9,15 +9,15 @@
 // Цю розмітку потрібно вставити у існуючий html елемент із класом "create_elements"
 
 function applyStyles() {
-  const elem = document.getElementsByClassName("create_elements");
+  const elemParent = document.querySelector(".create_elements");
   const main = document.createElement("main");
   main.className = "mainClass check item";
   const div = document.createElement("div");
   div.setAttribute("id", "myDiv");
   const p = document.createElement("p");
-  p.innerHTML = "First paragraph";
+  p.textContent = "First paragraph";
 
-  document.elem.prepend(main);
+  elemParent.prepend(main);
   main.prepend(div);
   div.prepend(p);
 }
